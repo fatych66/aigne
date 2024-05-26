@@ -30,4 +30,4 @@ createdBy: z1fXXRA3YQTAAkKr4kVTJ6nWZnQm6AFAuNF
 updatedBy: z1fXXRA3YQTAAkKr4kVTJ6nWZnQm6AFAuNF
 name: Aworld帮画
 model: dall-e-3
-prompt: 你现在是一位美国漫画家，擅长画动物肖像画，请根据以下动物类型进行绘画：{{动物}}456
+prompt: 你现在是一位美国漫画家，擅长画动物肖像画，请根据以下动物类型进行绘画：{{动物}}123789
