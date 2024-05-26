@@ -49,14 +49,13 @@ prompts:
     data:
       id: qcr_JuSdP2_mpHru-tAds
       role: user
-      content: 假如你是一名{{ 学生类型 }}，请写一篇{{字数}}字左右的作文，题目内容如下：{{主题}}
+      content: 假如你是一名{{ 学生类型 }}，请写一篇{{字数}}字左右的散文，题目内容如下：{{主题}}
 outputVariables:
   - id: 61QftdxKHIu3NdoKTf6O8
     name: $text
-id: 20240526104520-Slofwl
+id: 20240526105733-dxrMSg
 createdAt: 2024-05-26T02:45:20.597Z
 updatedAt: 2024-05-26T02:45:20.597Z
 createdBy: z1fXXRA3YQTAAkKr4kVTJ6nWZnQm6AFAuNF
 updatedBy: z1fXXRA3YQTAAkKr4kVTJ6nWZnQm6AFAuNF
-name: 作文帮手
-description: 模拟学生类型，快速跟主题进行AI生成作文
+name: 散文帮手
