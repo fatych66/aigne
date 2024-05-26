@@ -22,6 +22,9 @@ parameters:
     from: editor
     type: string
     label: 主题
+    required: true
+    minLength: 1
+    maxLength: 200
   - id: HraSvM8OBH3CBLd7wtYjx
     key: 字数
     from: editor
