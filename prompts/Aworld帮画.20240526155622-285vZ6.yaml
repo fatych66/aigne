@@ -1,0 +1,33 @@
+type: image
+parameters:
+  - id: ubztrsScGnmAYuTnUL6Wo
+    key: 动物
+    from: editor
+prompts:
+  bkxoUI0iIoJ44AQNPXWVo:
+    index: 0
+    data:
+      type: message
+      data:
+        id: bkxoUI0iIoJ44AQNPXWVo
+        role: system
+        content: 你现在是一位美国漫画家，擅长画动物肖像画，请根据以下动物类型进行绘画：{{动物}}
+  20240526155712-8UHoG4:
+    index: 1
+    data:
+      type: message
+      data:
+        id: 20240526155712-8UHoG4
+        role: user
+        content: ""
+outputVariables:
+  - id: Fvr6PemzrTlu56oDNadS5
+    name: $images
+id: 20240526155622-285vZ6
+createdAt: 2024-05-26T07:56:22.659Z
+updatedAt: 2024-05-26T07:56:22.659Z
+createdBy: z1fXXRA3YQTAAkKr4kVTJ6nWZnQm6AFAuNF
+updatedBy: z1fXXRA3YQTAAkKr4kVTJ6nWZnQm6AFAuNF
+name: Aworld帮画
+model: dall-e-3
+prompt: 你现在是一位美国漫画家，擅长画动物肖像画，请根据以下动物类型进行绘画：{{动物}}123
