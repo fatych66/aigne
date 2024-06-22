@@ -1,16 +1,10 @@
-_id: "449774379417468928"
+id: "449774379417468928"
 name: "small student 之光☀️ "
 description: test
 model: gpt-4o
 createdAt: 2024-05-26T03:22:48.457Z
-updatedAt: 2024-05-31T01:56:00.954Z
+updatedAt: 2024-05-31T01:56:04.298Z
 createdBy: z1fXXRA3YQTAAkKr4kVTJ6nWZnQm6AFAuNF
 updatedBy: z1fXXRA3YQTAAkKr4kVTJ6nWZnQm6AFAuNF
-pinnedAt: null
-gitType: default
 temperature: 1
 topP: 1
-presencePenalty: null
-frequencyPenalty: null
-maxTokens: null
-gitAutoSync: true

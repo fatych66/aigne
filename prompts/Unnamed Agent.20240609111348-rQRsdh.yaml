@@ -1,0 +1,29 @@
+type: function
+parameters:
+  - id: rRtm34k4Bsh9YVocfAXwF
+    type: string
+    key: question
+prompts:
+  iFseCroq7VNsh-7mcCf6R:
+    index: 0
+    data:
+      type: message
+      data:
+        id: iFseCroq7VNsh-7mcCf6R
+        role: user
+        content: "{{ question }}"
+outputVariables: []
+id: 20240609111348-rQRsdh
+createdAt: 2024-06-09T03:13:48.577Z
+updatedAt: 2024-06-09T03:13:48.577Z
+createdBy: z1fXXRA3YQTAAkKr4kVTJ6nWZnQm6AFAuNF
+updatedBy: z1fXXRA3YQTAAkKr4kVTJ6nWZnQm6AFAuNF
+name: Unnamed Agent
+requestUrl: https://www.toutiao.com/search/suggest/hot_words
+requestMethod: POST
+code: |
+  return {
+    text: 'hello, AIGNE!'
+  }
+model: gpt-4
+prompt: "{{question}}"

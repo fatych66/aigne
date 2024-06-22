@@ -28,25 +28,47 @@ parameters:
   - id: HraSvM8OBH3CBLd7wtYjx
     key: 字数
     from: editor
-    type: select
+    type: source
     label: 字数
     options:
-      - id: HjPfYxd60t9BrZ3l
-        label: "400"
-        value: "400"
-      - id: OKzIEjY4i3C44Dqx
-        label: "500"
-        value: "500"
-      - id: sEZuoij2LdYFxw7d
-        label: "600"
-        value: "600"
-      - id: 8qqD-eNFdlpFr_x_
-        label: "700"
-        value: "700"
-      - id: 8c6DpgWpwzPu441P
-        label: "800"
-        value: "800"
+      HjPfYxd60t9BrZ3l:
+        index: 0
+        data:
+          id: HjPfYxd60t9BrZ3l
+          label: "400"
+          value: "400"
+      OKzIEjY4i3C44Dqx:
+        index: 1
+        data:
+          id: OKzIEjY4i3C44Dqx
+          label: "500"
+          value: "500"
+      sEZuoij2LdYFxw7d:
+        index: 2
+        data:
+          id: sEZuoij2LdYFxw7d
+          label: "600"
+          value: "600"
+      8qqD-eNFdlpFr_x_:
+        index: 3
+        data:
+          id: 8qqD-eNFdlpFr_x_
+          label: "700"
+          value: "700"
+      8c6DpgWpwzPu441P:
+        index: 4
+        data:
+          id: 8c6DpgWpwzPu441P
+          label: "800"
+          value: "800"
     required: true
+    source:
+      variableFrom: blockletAPI
+      api:
+        id: AI-Studio:/api/messages:get
+        parameters:
+          limit: ""
+          keyword: ""
 prompts:
   - type: message
     data:
