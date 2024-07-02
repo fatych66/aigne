@@ -1,6 +1,6 @@
-# small student 之光☀️ 
+# 作文帮手
 
-test
+快速帮学生完成作文创作
 
 ## Install And Run
 
