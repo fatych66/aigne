@@ -63,6 +63,12 @@ prompts:
 outputVariables:
   - id: 61QftdxKHIu3NdoKTf6O8
     name: $text
+  - id: 1n3pBOaAEO1zMSO38aoAx
+    name: $appearance.page
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: ctnxha29uu8cx4xv
+      componentName: Simple Layout
 id: 20240526104520-Slofwl
 createdAt: 2024-05-26T02:45:20.597Z
 updatedAt: 2024-05-26T02:45:20.597Z
