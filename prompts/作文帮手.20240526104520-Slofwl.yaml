@@ -59,7 +59,7 @@ prompts:
     data:
       id: qcr_JuSdP2_mpHru-tAds
       role: user
-      content: 假如你是一名{{ 学生类型 }}，请写一篇{{字数}}字左右的作文，题目内容如下：{{主题}}
+      content: 假如你是一名{{ 学生类型 }}，请写一篇{{字数}}字左右的作文，题目主题如下：{{主题}}
 outputVariables:
   - id: 61QftdxKHIu3NdoKTf6O8
     name: $text
