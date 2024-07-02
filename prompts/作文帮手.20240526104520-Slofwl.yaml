@@ -69,6 +69,13 @@ outputVariables:
       componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
       componentId: ctnxha29uu8cx4xv
       componentName: Simple Layout
+  - id: _6GCsPkPotcoy122lFIB8
+    name: $appearance.input
+    hidden: true
+    appearance:
+      componentBlockletDid: z2qa6fvjmjew4pWJyTsKaWFuNoMUMyXDh5A1D
+      componentId: 1wwtemqcdio6nqf0
+      componentName: Auto Form
 id: 20240526104520-Slofwl
 createdAt: 2024-05-26T02:45:20.597Z
 updatedAt: 2024-05-26T02:45:20.597Z
